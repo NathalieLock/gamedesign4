@@ -19,15 +19,33 @@ export default function About() {
     >
       <h2 className="text-3xl">About us</h2>
 
-      <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-        <TeamCard />
-        <TeamCard />
-        <TeamCard />
+      <div className="sm:block md:hidden">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+          <TeamCard />
+          <TeamCard />
+        </div>
+
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+          <TeamCard />
+          <TeamCard />
+        </div>
+
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+          <TeamCard />
+        </div>
       </div>
 
-      <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-        <TeamCard />
-        <TeamCard />
+      <div className="hidden md:block">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+          <TeamCard />
+          <TeamCard />
+          <TeamCard />
+        </div>
+
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+          <TeamCard />
+          <TeamCard />
+        </div>
       </div>
     </motion.section>
   );
