@@ -16,8 +16,11 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <h>About us</h>
-      <p className="mb-3">Hello</p>
+      <h2 className="text-2xl">About us</h2>
+
+      <div>
+        <div></div>
+      </div>
     </motion.section>
   );
 }
