@@ -1,5 +1,6 @@
 "use client";
 
+import TeamCard from "./team-card";
 import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -16,10 +17,17 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <h2 className="text-2xl">About us</h2>
+      <h2 className="text-3xl">About us</h2>
 
-      <div>
-        <div></div>
+      <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <TeamCard />
+        <TeamCard />
+        <TeamCard />
+      </div>
+
+      <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <TeamCard />
+        <TeamCard />
       </div>
     </motion.section>
   );
