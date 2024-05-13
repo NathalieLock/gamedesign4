@@ -31,7 +31,7 @@ export default function Intro() {
         transition={{ delay: 0.175 }}
       >
         <h1 className="text-4xl text-white">Otherworld Saviour Robot</h1>
-        <p className="w-[50rem] mx-auto pt-[2rem]">
+        <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

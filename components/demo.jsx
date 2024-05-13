@@ -9,7 +9,7 @@ export default function Demo() {
     <div
       ref={ref}
       id="demo"
-      className="h-[400px] w-[600px] bg-slate-300 text-slate-950"
+      className="w-[50%] h-[20%] bg-slate-300 text-slate-950"
     >
       Video demo placeholder
     </div>
