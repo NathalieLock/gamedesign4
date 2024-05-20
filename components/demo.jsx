@@ -1,17 +1,24 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Demo() {
-  const { ref } = useSectionInView("Demo");
+  const { ref } = useSectionInView("Demo", 0.6);
   return (
-    <div
+    <motion.section
       ref={ref}
+      className="max-w-[45rem] text-center leading-8 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
       id="demo"
-      className="w-[50%] h-[20%] bg-slate-300 text-slate-950"
     >
-      Video demo placeholder
-    </div>
+      <h2 className="text-3xl">Video demo</h2>
+      <div className="aspect-video mt-[2rem]">
+        <div className="w-full h-full bg-slate-500"></div>
+      </div>
+    </motion.section>
   );
 }

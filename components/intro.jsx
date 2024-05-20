@@ -2,7 +2,6 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -31,14 +30,27 @@ export default function Intro() {
         transition={{ delay: 0.175 }}
       >
         <h1 className="text-4xl text-white">Otherworld Saviour Robot</h1>
-        <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-loose">
+          Embark on an adventure through a{" "}
+          <span className="font-extrabold text-lg text-pink-600">diverse</span>{" "}
+          and{" "}
+          <span className="font-extrabold text-lg text-pink-600">
+            immersive environment
+          </span>{" "}
+          inhabited by other-worldly{" "}
+          <span className="font-extrabold text-lg text-pink-600">
+            interactive NPCs and creatures
+          </span>{" "}
+          . Explore the world and engage in{" "}
+          <span className="font-extrabold text-lg text-pink-600">
+            turn-based puzzle combats
+          </span>{" "}
+          where multiple approaches and tactics can lead to victory.{" "}
+          <span className="font-extrabold text-lg text-pink-600">
+            Build your party
+          </span>{" "}
+          by recruiting allies with distinct abilities, each offering unique
+          strategic advantages.
         </p>
       </motion.div>
     </section>

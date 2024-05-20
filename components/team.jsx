@@ -5,19 +5,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
-export default function About() {
-  const { ref } = useSectionInView("About");
+export default function Team() {
+  const { ref } = useSectionInView("Team");
 
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="max-w-[50rem] text-center leading-8 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      id="team"
     >
-      <h2 className="text-3xl">About us</h2>
+      <h2 className="text-3xl">The team</h2>
 
       <div className="sm:block md:hidden">
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
