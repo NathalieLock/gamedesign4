@@ -2,17 +2,17 @@ import React from "react";
 import Image from "next/image";
 import { BsLinkedin } from "react-icons/bs";
 
-export default function TeamCard({ name, role, linkedin }) {
+export default function TeamCard({ avatar, name, role, linkedin }) {
   return (
     <div className="pt-[2rem] flex flex-col items-center justify-center">
       <Image
-        src="/avatar.jpeg"
+        src={avatar}
         alt="Portrait"
         width="192"
         height="192"
         quality="95"
         priority={true}
-        className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+        className="h-28 w-28 lg:h-36 lg:w-36  rounded-full object-cover border-[0.35rem] border-white shadow-xl"
       />
       <h3 className="mt-2 text-xl">{name}</h3>
       <p className="text-gray-400">{role}</p>

@@ -22,37 +22,40 @@ export default function Team() {
       <div className="sm:block md:hidden">
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
           <TeamCard
+            avatar="/nathalie.jpeg"
             name="Nathalie Lock"
             role="Role"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard name="Name" role="Role" linkedin="" />
+
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-          <TeamCard name="Name" role="Role" linkedin="" />
-          <TeamCard name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-          <TeamCard name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
       </div>
 
       <div className="hidden md:block">
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
           <TeamCard
+            avatar="/nathalie.jpeg"
             name="Nathalie Lock"
             role="Role"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard name="Name" role="Role" linkedin="" />
-          <TeamCard name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-          <TeamCard name="Name" role="Role" linkedin="" />
-          <TeamCard name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
       </div>
     </motion.section>
