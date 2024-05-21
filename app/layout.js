@@ -13,9 +13,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth bg-slate-950">
       <body
-        className={`${inter.className} bg-slate-950 text-gray-100 relative`}
+        className={`${inter.className} bg-gradient-to-b to-[#151d2e] from-slate-950 text-gray-100 relative bg-fixed min-h-screen`}
       >
         <ActiveSectionContextProvider>
           <Header />
