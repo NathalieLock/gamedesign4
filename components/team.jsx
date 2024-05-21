@@ -11,7 +11,7 @@ export default function Team() {
   return (
     <motion.section
       ref={ref}
-      className="max-w-[50rem] text-center leading-8 scroll-mt-28"
+      className="max-w-[50rem] lg:max-w-[68rem] text-center leading-8 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -20,7 +20,7 @@ export default function Team() {
       <h2 className="text-3xl">The team</h2>
 
       <div className="sm:block md:hidden">
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] gap-y-[6rem]">
           <TeamCard
             avatar="/nathalie.jpeg"
             name="Nathalie Lock"
@@ -28,32 +28,42 @@ export default function Team() {
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
 
+          <TeamCard
+            avatar="/morris.jpeg"
+            name="Morris Hansing"
+            role="Role"
+            linkedin=""
+          />
+        </div>
+
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] lg:gap-x-[12rem] gap-y-[6rem]">
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
 
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
-        </div>
-
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-y-[6rem]">
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
       </div>
 
       <div className="hidden md:block">
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] lg:gap-x-[12rem] gap-y-[6rem]">
           <TeamCard
             avatar="/nathalie.jpeg"
             name="Nathalie Lock"
             role="Role"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard
+            avatar="/morris.jpeg"
+            name="Morris Hansing"
+            role="Role"
+            linkedin=""
+          />
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
 
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-[6rem]">
+        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[12rem] gap-[6rem]">
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>

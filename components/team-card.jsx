@@ -12,7 +12,7 @@ export default function TeamCard({ avatar, name, role, linkedin }) {
         height="192"
         quality="95"
         priority={true}
-        className="h-28 w-28 lg:h-36 lg:w-36  rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+        className="h-28 w-28 md:h-44 md:w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
       />
       <h3 className="mt-2 text-xl">{name}</h3>
       <p className="text-gray-400">{role}</p>
