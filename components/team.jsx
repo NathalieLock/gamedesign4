@@ -37,8 +37,18 @@ export default function Team() {
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] lg:gap-x-[12rem] gap-y-[6rem]">
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard
+            avatar="/lucas.jpeg"
+            name="Lucas Kerslow"
+            role="Role"
+            linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
+          />
+          <TeamCard
+            avatar="/kate.jpeg"
+            name="Katerina Tsioutsia"
+            role="Role"
+            linkedin=""
+          />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-y-[6rem]">
@@ -60,11 +70,21 @@ export default function Team() {
             role="Role"
             linkedin=""
           />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard
+            avatar="/lucas.jpeg"
+            name="Lucas Kerslow"
+            role="Role"
+            linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
+          />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[12rem] gap-[6rem]">
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard
+            avatar="/kate.jpeg"
+            name="Katerina Tsioutsia"
+            role="Role"
+            linkedin=""
+          />
           <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
         </div>
       </div>
