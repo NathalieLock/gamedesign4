@@ -28,12 +28,7 @@ export default function Team() {
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
 
-          <TeamCard
-            avatar="/morris.jpeg"
-            name="Morris Hansing"
-            role="Role"
-            linkedin=""
-          />
+          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role="Role" />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] lg:gap-x-[12rem] gap-y-[6rem]">
@@ -43,16 +38,11 @@ export default function Team() {
             role="Role"
             linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
           />
-          <TeamCard
-            avatar="/kate.jpeg"
-            name="Katerina Tsioutsia"
-            role="Role"
-            linkedin=""
-          />
+          <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-y-[6rem]">
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" />
         </div>
       </div>
 
@@ -64,12 +54,7 @@ export default function Team() {
             role="Role"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard
-            avatar="/morris.jpeg"
-            name="Morris Hansing"
-            role="Role"
-            linkedin=""
-          />
+          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role="Role" />
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
@@ -79,13 +64,8 @@ export default function Team() {
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[12rem] gap-[6rem]">
-          <TeamCard
-            avatar="/kate.jpeg"
-            name="Katerina Tsioutsia"
-            role="Role"
-            linkedin=""
-          />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" linkedin="" />
+          <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
+          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" />
         </div>
       </div>
     </motion.section>
