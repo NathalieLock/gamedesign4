@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
       <Intro />
-      <SectionDivider />
+      <SectionDivider image="/ROBOT.webp" />
       <Team />
-      <SectionDivider />
+      <SectionDivider image="/DRAGON.webp" />
       <Story />
       <Features />
-      <SectionDivider />
+      <SectionDivider image="/MUSH_LIGHT.webp" />
       <Demo />
-      <SectionDivider />
+      <SectionDivider image="/FOX.webp" />
       <Download />
     </main>
   );
