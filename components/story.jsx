@@ -19,7 +19,7 @@ export default function Story() {
       <h2 className="text-3xl">Story</h2>
 
       <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-loose">
-        The adventure starts when you, playing as Robo the robot, spawn into a
+        The adventure starts when you, playing as Beep the robot, spawn into a
         mystical and vibrant world. As you arrive, you find out that you stand
         at the threshold of a realm shrouded in enchantment and peril. The once
         serene lands are now overshadowed by a creeping darkness, brought on by
@@ -30,7 +30,7 @@ export default function Story() {
         secrets of the world and the source of the spores. Along the way, you’ll
         meet otherworldly creatures, each with their own tales and quests, and
         gain allies in your fight against the dark forces. Will you be able to
-        navigate the challenges, solve the puzzles, and defeat the enemy ? The
+        navigate the challenges, solve the puzzles, and defeat the enemy? The
         fate of the otherworld realm rests in your hands. Embrace your role as
         their guardian and forge a path to victory.
       </p>
