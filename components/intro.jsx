@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import Image from "next/image";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.6);
@@ -13,44 +14,47 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="relative w-screen mb-28 text-center sm:mb-0 scroll-mt-[100rem]"
+      className="relative w-screen text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div
-        className="absolute inset-0 bg-cover"
+        className="absolute inset-0 bg-cover h-[25vh] lg:h-[30vh]"
         style={{
-          backgroundImage: `url('/cover.jpg')`,
-          height: "30vh",
+          backgroundImage: `url('/cover7.png')`,
         }}
       ></div>
 
       <motion.div
-        className="relative z-10 pt-[20rem]"
+        className="relative z-10 pt-[12vh] lg:pt-[10vh]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
       >
-        <h1 className="text-4xl text-white">Otherworld Saviour Robot</h1>
-        <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-loose">
+        <div className="flex justify-center">
+          <Image
+            src={"/Logo.webp"}
+            alt="Logo"
+            width="750"
+            height="750"
+            quality="95"
+            priority={true}
+          ></Image>
+        </div>
+
+        <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-6 md:leading-8 md:text-xl">
           Embark on an adventure through a{" "}
-          <span className="font-extrabold text-lg text-pink-600">diverse</span>{" "}
-          and{" "}
-          <span className="font-extrabold text-lg text-pink-600">
-            immersive environment
-          </span>{" "}
+          <span className=" text-pink-600">diverse</span> and{" "}
+          <span className=" text-pink-600">immersive environment</span>{" "}
           inhabited by other-worldly{" "}
-          <span className="font-extrabold text-lg text-pink-600">
-            interactive NPCs and creatures
-          </span>{" "}
-          . Explore the world and engage in{" "}
-          <span className="font-extrabold text-lg text-pink-600">
-            turn-based puzzle combats
-          </span>{" "}
+          <span className=" text-pink-600">interactive NPCs and creatures</span>{" "}
+          .
+          <br />
+          <br />
+          Explore the world and engage in{" "}
+          <span className=" text-pink-600">turn-based puzzle combats</span>{" "}
           where multiple approaches and tactics can lead to victory.{" "}
-          <span className="font-extrabold text-lg text-pink-600">
-            Build your party
-          </span>{" "}
-          by recruiting allies with distinct abilities, each offering unique
-          strategic advantages.
+          <span className=" text-pink-600">Build your party</span> by recruiting
+          allies with distinct abilities, each offering unique strategic
+          advantages.
         </p>
       </motion.div>
     </section>

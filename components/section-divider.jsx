@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function SectionDivider({ image }) {
   return (
     <motion.div
-      className="my-[4rem]"
+      className="my-[3rem] lg:my-[4rem]"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}

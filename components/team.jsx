@@ -17,10 +17,10 @@ export default function Team() {
       transition={{ delay: 0.175 }}
       id="team"
     >
-      <h2 className="text-3xl">The team</h2>
+      <h2 className="text-3xl mb-4">The team</h2>
 
       <div className="sm:block md:hidden">
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] gap-y-[6rem]">
+        <div className="flex flex-row items-center justify-center gap-x-[3rem]">
           <TeamCard
             avatar="/nathalie.jpeg"
             name="Nathalie Lock"
@@ -31,7 +31,7 @@ export default function Team() {
           <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role="Role" />
         </div>
 
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[6rem] lg:gap-x-[12rem] gap-y-[6rem]">
+        <div className="flex flex-row items-center justify-center gap-x-[3rem]">
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
@@ -41,8 +41,8 @@ export default function Team() {
           <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
         </div>
 
-        <div className="flex flex-row items-center justify-center mt-[2rem] gap-y-[6rem]">
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" />
+        <div className="flex flex-row items-center justify-center ">
+          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role="Role" />
         </div>
       </div>
 
@@ -65,7 +65,7 @@ export default function Team() {
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[12rem] gap-[6rem]">
           <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
-          <TeamCard avatar="/avatar.jpeg" name="Name" role="Role" />
+          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role="Role" />
         </div>
       </div>
     </motion.section>
