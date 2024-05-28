@@ -16,7 +16,15 @@ export default function Demo() {
       id="demo"
     >
       <h2 className="text-3xl">Video demo</h2>
-      <div className="aspect-video mt-[2rem]">hello</div>
+      <div className="aspect-video mt-[2rem]">
+        <video className="h-full w-full rounded-lg" controls>
+          <source
+            src="https://axk3pvjzeu6rv0tu.public.blob.vercel-storage.com/demo-Pe9ZETEoPctb7n6aQNcK9iNDgF0Lhw.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </motion.section>
   );
 }
