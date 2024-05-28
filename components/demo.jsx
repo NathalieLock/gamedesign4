@@ -18,7 +18,6 @@ export default function Demo() {
     >
       <h2 className="text-3xl">Video demo</h2>
       <div className="aspect-video mt-[2rem]">
-        <h1>test</h1>
         <VideoDemo />
       </div>
     </motion.section>
