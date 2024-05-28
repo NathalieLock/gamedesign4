@@ -3,7 +3,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import VideoDemo from "./video";
 
 export default function Demo() {
   const { ref } = useSectionInView("Demo", 0.6);
@@ -18,7 +17,7 @@ export default function Demo() {
     >
       <h2 className="text-3xl">Video demo</h2>
       <div className="aspect-video mt-[2rem]">
-        <VideoDemo />
+        <div className="w-full h-full bg-slate-500"></div>
       </div>
     </motion.section>
   );
