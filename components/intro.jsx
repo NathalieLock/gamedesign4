@@ -29,7 +29,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}
       >
-        <div className="flex justify-center">
+        <div className="flex justify-center w-auto h-auto">
           <Image
             src={"/Logo.webp"}
             alt="Logo"
@@ -42,19 +42,15 @@ export default function Intro() {
 
         <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-6 md:leading-8 md:text-xl">
           Embark on an adventure through a{" "}
-          <span className=" text-pink-600">diverse</span> and{" "}
+          <span className=" text-pink-600">mystical</span> and{" "}
           <span className=" text-pink-600">immersive environment</span>{" "}
           inhabited by other-worldly{" "}
-          <span className=" text-pink-600">interactive NPCs and creatures</span>{" "}
-          .
-          <br />
-          <br />
+          <span className=" text-pink-600">interactive creatures</span> .
           Explore the world and engage in{" "}
           <span className=" text-pink-600">turn-based puzzle combats</span>{" "}
           where multiple approaches and tactics can lead to victory.{" "}
-          <span className=" text-pink-600">Build your party</span> by recruiting
-          allies with distinct abilities, each offering unique strategic
-          advantages.
+          <span className=" text-pink-600">Recruit unique allies</span>
+          with distinct abilities, each offering unique strategic advantages.
         </p>
       </motion.div>
     </section>

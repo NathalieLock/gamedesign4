@@ -26,7 +26,7 @@ export default function Features() {
     <section
       id="features"
       ref={ref}
-      className="max-w-[50rem] mt-[10rem] text-center leading-8 scroll-mt-28"
+      className="max-w-[50rem] mt-[6rem] text-center leading-8 scroll-mt-28"
     >
       <h2 className="text-3xl">Features</h2>
       <ul className="flex flex-wrap justify-center gap-4 md:gap-6 lg:gap-8 text-lg font-medium pt-6 lg:pt-8">

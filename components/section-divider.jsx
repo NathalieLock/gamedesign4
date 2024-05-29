@@ -13,6 +13,7 @@ export default function SectionDivider({ image }) {
       transition={{ delay: 0.125 }}
     >
       <Image
+        className="w-auto h-auto"
         src={image}
         alt="Game character"
         width="120"

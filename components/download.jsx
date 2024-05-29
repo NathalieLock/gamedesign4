@@ -10,7 +10,7 @@ export default function Download() {
   return (
     <motion.section
       ref={ref}
-      className="max-w-[45rem] mt-[2rem] text-center leading-8 scroll-mt-28"
+      className="max-w-[45rem]  text-center leading-8 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -18,7 +18,7 @@ export default function Download() {
     >
       <h2 className="text-3xl">Play now!</h2>
 
-      <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-loose">
+      <p className="max-w-[50rem] mx-auto pt-6 lg:pt-8 px-[2rem] leading-loose">
         Download here {"[insert link to github repo]"}
       </p>
     </motion.section>

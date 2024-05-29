@@ -16,7 +16,7 @@ export default function Demo() {
       id="demo"
     >
       <h2 className="text-3xl">Video demo</h2>
-      <div className="aspect-video mt-[2rem]">
+      <div className="aspect-video pt-6 lg:pt-8">
         <video className="h-full w-full rounded-lg" controls>
           <source
             src="https://axk3pvjzeu6rv0tu.public.blob.vercel-storage.com/demo-Pe9ZETEoPctb7n6aQNcK9iNDgF0Lhw.mp4"
