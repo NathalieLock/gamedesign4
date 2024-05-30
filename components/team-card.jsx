@@ -2,7 +2,13 @@ import React from "react";
 import Image from "next/image";
 import { BsLinkedin } from "react-icons/bs";
 
-export default function TeamCard({ avatar, name, role, linkedin = "none" }) {
+export default function TeamCard({
+  avatar,
+  name,
+  role1,
+  role2 = "none",
+  linkedin = "none",
+}) {
   return (
     <div className="pt-[2rem] flex flex-col items-center justify-center">
       <Image
@@ -15,7 +21,13 @@ export default function TeamCard({ avatar, name, role, linkedin = "none" }) {
         className="h-28 w-28 md:h-44 md:w-44 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
       />
       <h3 className="mt-2 text-md md:text-xl">{name}</h3>
-      <p className="text-gray-400 text-sm md:text-lg">{role}</p>
+      <p className="text-gray-400 text-sm md:text-md">{role1}</p>
+      <p
+        style={{ visibility: role2 === "none" ? "hidden" : "visible" }}
+        className="text-gray-400 text-sm md:text-md"
+      >
+        {role2}
+      </p>
 
       <p style={{ visibility: linkedin === "none" ? "hidden" : "visible" }}>
         <a

@@ -24,25 +24,31 @@ export default function Team() {
           <TeamCard
             avatar="/nathalie.jpeg"
             name="Nathalie Lock"
-            role="Role"
+            role1="Web Developer"
+            role2="Environment Designer"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
 
-          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role="Role" />
+          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role1="Role" />
         </div>
 
         <div className="flex flex-row items-center justify-center gap-x-[3rem]">
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
-            role="Role"
+            role1="Role"
             linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
           />
-          <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
+          <TeamCard
+            avatar="/kate.jpeg"
+            name="Katerina Tsioutsia"
+            role1="Environment & Character Designer"
+            role2="3D artist"
+          />
         </div>
 
         <div className="flex flex-row items-center justify-center ">
-          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role="Role" />
+          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role1="Role" />
         </div>
       </div>
 
@@ -51,21 +57,27 @@ export default function Team() {
           <TeamCard
             avatar="/nathalie.jpeg"
             name="Nathalie Lock"
-            role="Role"
+            role1="Web Developer"
+            role2="Environment Designer"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role="Role" />
+          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role1="Role" />
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
-            role="Role"
+            role1="Role"
             linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
           />
         </div>
 
         <div className="flex flex-row items-center justify-center mt-[2rem] gap-x-[12rem] gap-[6rem]">
-          <TeamCard avatar="/kate.jpeg" name="Katerina Tsioutsia" role="Role" />
-          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role="Role" />
+          <TeamCard
+            avatar="/kate.jpeg"
+            name="Katerina Tsioutsia"
+            role1="Environment & Character Designer"
+            role2="3D artist"
+          />
+          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role1="Role" />
         </div>
       </div>
     </motion.section>
