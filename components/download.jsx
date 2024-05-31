@@ -18,9 +18,15 @@ export default function Download() {
     >
       <h2 className="text-3xl">Play now!</h2>
 
-      <p className="max-w-[50rem] mx-auto pt-6 lg:pt-8 px-[2rem] leading-loose">
-        Download here {"[insert link to github repo]"}
-      </p>
+      <a
+        href="https://drive.google.com/drive/folders/1695yspcXLbnNgKHvDE1rt9dSrUbZ1xhp?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button class="mt-5 bg-transparent hover:bg-pink-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-pink-500 hover:border-transparent rounded">
+          Download here
+        </button>
+      </a>
     </motion.section>
   );
 }
