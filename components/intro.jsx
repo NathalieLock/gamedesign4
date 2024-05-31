@@ -14,7 +14,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="relative w-screen text-center sm:mb-0 scroll-mt-[100rem]"
+      className="relative w-screen sm:mb-0 scroll-mt-[100rem]"
     >
       <div
         className="absolute inset-0 bg-cover h-[25vh] lg:h-[30vh]"

@@ -18,7 +18,7 @@ export default function Story() {
     >
       <h2 className="text-center text-3xl">Story</h2>
 
-      <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] leading-8">
+      <p className="max-w-[50rem] mx-auto pt-[2rem] px-[2rem] text-sm md:text-lg leading-6 md:leading-8">
         The adventure starts when you, playing as Beep the robot, spawn into the
         mystical and vibrant world of Celestria. As you arrive, you find out
         that you stand at the threshold of a realm shrouded in enchantment and
