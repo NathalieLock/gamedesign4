@@ -29,14 +29,18 @@ export default function Team() {
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
 
-          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role1="Role" />
+          <TeamCard
+            avatar="/morris.jpeg"
+            name="Morris Hansing"
+            role1="Game Programmer"
+          />
         </div>
 
         <div className="flex flex-row items-center justify-center gap-x-[3rem]">
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
-            role1="Role"
+            role1="Game Programmer"
             linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
           />
           <TeamCard
@@ -48,7 +52,11 @@ export default function Team() {
         </div>
 
         <div className="flex flex-row items-center justify-center ">
-          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role1="Role" />
+          <TeamCard
+            avatar="/tianyi.webp"
+            name="Tianyi Wang"
+            role1="Interaction & UI designer"
+          />
         </div>
       </div>
 
@@ -61,11 +69,15 @@ export default function Team() {
             role2="Environment Designer"
             linkedin="https://www.linkedin.com/in/nathalie-lock-55bb061b1/"
           />
-          <TeamCard avatar="/morris.jpeg" name="Morris Hansing" role1="Role" />
+          <TeamCard
+            avatar="/morris.jpeg"
+            name="Morris Hansing"
+            role1="Game Programmer"
+          />
           <TeamCard
             avatar="/lucas.jpeg"
             name="Lucas Kerslow"
-            role1="Role"
+            role1="Game Programmer"
             linkedin="https://www.linkedin.com/in/lucas-kerslow-293b22223/"
           />
         </div>
@@ -77,7 +89,11 @@ export default function Team() {
             role1="Environment & Character Designer"
             role2="3D artist"
           />
-          <TeamCard avatar="/tianyi.webp" name="Tianyi Wang" role1="Role" />
+          <TeamCard
+            avatar="/tianyi.webp"
+            name="Tianyi Wang"
+            role1="Interaction & UI designer"
+          />
         </div>
       </div>
     </motion.section>

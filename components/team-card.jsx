@@ -10,7 +10,7 @@ export default function TeamCard({
   linkedin = "none",
 }) {
   return (
-    <div className="pt-[2rem] flex flex-col items-center justify-center">
+    <div className="pt-[2rem] flex flex-col items-center justify-center lg:gap-y-2">
       <Image
         src={avatar}
         alt="Portrait"
