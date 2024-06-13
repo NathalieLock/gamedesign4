@@ -49,8 +49,8 @@ export default function Intro() {
           Explore the world and engage in{" "}
           <span className=" text-pink-600">turn-based puzzle combats</span>{" "}
           where multiple approaches and tactics can lead to victory.{" "}
-          <span className=" text-pink-600">Recruit unique allies</span>
-          with distinct abilities, each offering unique strategic advantages.
+          <span className=" text-pink-600">Recruit unique allies</span> with
+          distinct abilities, each offering unique strategic advantages.
         </p>
       </motion.div>
     </section>

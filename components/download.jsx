@@ -23,7 +23,7 @@ export default function Download() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button class="mt-5 bg-transparent hover:bg-pink-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-pink-500 hover:border-transparent rounded">
+        <button className="mt-5 bg-transparent hover:bg-pink-500 text-slate-50 font-semibold hover:text-white py-2 px-4 border border-pink-500 hover:border-transparent rounded">
           Download here
         </button>
       </a>
